@@ -5,6 +5,7 @@ export type NRPluginConfig = {
   captureIntrospectionQueries?: boolean;
   captureServiceDefinitionQueries?: boolean;
   captureHealthCheckQueries?: boolean;
+  ignoredStatusCodes?: number[]
 };
 
 declare let NRApolloPlugin: ApolloServerPlugin;

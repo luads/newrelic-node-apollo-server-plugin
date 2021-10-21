@@ -12,5 +12,6 @@ expectType<ApolloServerPlugin>(
     captureHealthCheckQueries: true,
     captureScalars: false,
     captureServiceDefinitionQueries: true,
+    ignoredStatusCodes: [401, 404],
   })
 );
